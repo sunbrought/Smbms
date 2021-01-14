@@ -1,0 +1,9 @@
+package com.xiaoning.service.role;
+
+import com.xiaoning.pojo.Role;
+
+import java.util.List;
+
+public interface RoleService {
+    public List<Role> getRoleList();
+}
